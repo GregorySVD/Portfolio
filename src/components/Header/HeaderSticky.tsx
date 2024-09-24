@@ -1,5 +1,5 @@
 import { faFacebook, faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
-import { HeaderLink } from './HeaderLink';
+import { SocialLink } from '../SocialLink';
 import { MyResumeBtn } from './HeaderMyResumeBtn';
 
 export const HeaderSticky = () => {
@@ -14,9 +14,9 @@ export const HeaderSticky = () => {
       "
     >
       <div className="min-w-32 flex justify-evenly">
-        <HeaderLink icon={faGithub} link="https://github.com/GregorySVD" />
-        <HeaderLink icon={faLinkedin} link="https://www.linkedin.com/in/grzegorz-terenda/" />
-        <HeaderLink icon={faFacebook} link="https://www.facebook.com/grzegorz.terenda/" />
+        <SocialLink icon={faGithub} link="https://github.com/GregorySVD" />
+        <SocialLink icon={faLinkedin} link="https://www.linkedin.com/in/grzegorz-terenda/" />
+        <SocialLink icon={faFacebook} link="https://www.facebook.com/grzegorz.terenda/" />
       </div>
       <div>
         <MyResumeBtn />
