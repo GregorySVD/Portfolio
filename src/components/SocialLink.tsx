@@ -2,15 +2,16 @@ import { IconProp } from '@fortawesome/fontawesome-svg-core';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 interface Props {
-  icon: IconProp; // Assuming `icon` is a string representing a class or icon code
+  icon: IconProp;
   link: string;
+  size?: 'text-2xl' | 'text-xl' | 'text-sm';
 }
 
-export const HeaderLink = ({ icon, link }: Props) => {
+export const SocialLink = ({ icon, link, size = 'text-2xl' }: Props) => {
   return (
     <span className="transform-none">
       <a target="_blank" href={link} rel="noreferrer">
-        <FontAwesomeIcon icon={icon} className="text-2xl opacity-50 hover:text-accent hover:opacity-100" />
+        <FontAwesomeIcon icon={icon} className={`opacity-50 hover:text-accent hover:opacity-100 ${size}`} />
       </a>
     </span>
   );
