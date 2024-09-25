@@ -12,7 +12,7 @@ export const Hero = () => {
         </p>
 
         <p className="text-xl">Let's connect </p>
-        <button className="hover:animate-jump animate-once inline-flex items-center justify-center p-0.5 my-3 me-2 bg-accent text-bg-main overflow-hidden text-sm font-medium rounded-md px-5 py-2.5 group bg-gradient-to-br from-transparent to-transparent hover:from-accent hover:to-accent transition-all duration-500 border border-accent">
+        <button className="hover:animate-jump animate-once inline-flex items-center justify-center p-0.5 my-5 me-2 bg-accent text-bg-main overflow-hidden text-sm font-medium rounded-md px-5 py-2.5 group bg-gradient-to-br from-transparent to-transparent hover:from-accent hover:to-accent transition-all duration-500 border border-accent">
           Contact Me
         </button>
       </div>

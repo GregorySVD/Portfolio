@@ -12,6 +12,7 @@ module.exports = {
         bg: {
           main: '#111111',
           dark: '#080808',
+          chip: '#232323',
         },
         text: {
           main: '#ebecf3',
