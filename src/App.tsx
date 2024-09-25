@@ -4,6 +4,7 @@ import { HeaderSticky } from './components/Header/HeaderSticky';
 import { Hero } from './components/Hero';
 import { SideBar } from './components/SideBar';
 import { Reveal } from './components/utils/Reveal';
+import { Footer } from './Footer';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
               <About />
             </Reveal>
           </div>
+          <Footer />
         </main>
       </div>
     </div>

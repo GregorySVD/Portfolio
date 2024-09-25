@@ -40,8 +40,8 @@ export const About = () => {
               If you think you've got an opening that I might like, let's connect 🔗
             </p>
           </div>
-          <div className="relative w-fit flex gap-3 text-sm">
-            <p>My links : </p>
+          <div className="relative w-fit flex gap-3 text-base">
+            <p className="text-accent">My links : </p>
             <div className="flex gap-3">
               <SocialLink icon={faGithub} link="https://github.com/GregorySVD" size="text-xl" />
               <SocialLink icon={faLinkedin} link="https://www.linkedin.com/in/grzegorz-terenda/" size="text-xl" />

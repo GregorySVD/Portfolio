@@ -7,13 +7,13 @@ export const HeaderSticky = () => {
     <header
       className="
         sticky top-0 z-20
-        h-[calc(45px+3.6rem)] px-[3.6rem] 
+        h-[calc(20px+3.6rem)] px-3.5
         flex items-center justify-between
         bg-bg-opaque backdrop-blur-md
         font-bold
       "
     >
-      <div className="min-w-32 flex justify-evenly">
+      <div className="min-w-32 flex justify-evenly gap-3">
         <SocialLink icon={faGithub} link="https://github.com/GregorySVD" />
         <SocialLink icon={faLinkedin} link="https://www.linkedin.com/in/grzegorz-terenda/" />
         <SocialLink icon={faFacebook} link="https://www.facebook.com/grzegorz.terenda/" />
