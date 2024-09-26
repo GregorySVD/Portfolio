@@ -1,8 +1,8 @@
 import { faFacebook, faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
-import { SocialLink } from './components/SocialLink';
+import { SocialLink } from './SocialLink';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMicrochip } from '@fortawesome/free-solid-svg-icons';
-import { Chip } from './components/Chip';
+import { Chip } from './Chip';
 
 export const About = () => {
   return (
@@ -52,7 +52,7 @@ export const About = () => {
         <div className="flex flex-col">
           <h4 className="mb-6 text-xl ">
             <FontAwesomeIcon icon={faMicrochip} className="text-accent mx-2" />
-            Tech I use
+            Tech I Love
           </h4>
           <div className="flex flex-wrap text-md gap-3">
             <Chip text="JavaScript" />
