@@ -5,6 +5,12 @@ module.exports = {
   content: ['./src/**/*.{js,jsx,ts,tsx}'],
   theme: {
     extend: {
+      rotate: {
+        2: '2deg',
+      },
+      scale: {
+        110: '1.1',
+      },
       fontFamily: {
         poppins: ['Poppins', 'sans-serif'],
       },
