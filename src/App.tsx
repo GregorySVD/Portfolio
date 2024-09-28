@@ -1,10 +1,11 @@
-import { About } from './About';
+import { About } from './components/About';
 import { HeaderSticky } from './components/Header/HeaderSticky';
 
 import { Hero } from './components/Hero';
 import { SideBar } from './components/SideBar';
 import { Reveal } from './components/utils/Reveal';
-import { Footer } from './Footer';
+import { Footer } from './components/Footer';
+import { ProjectSection } from './components/ProjectSection';
 
 function App() {
   return (
@@ -13,13 +14,14 @@ function App() {
         <SideBar />
         <main className="flex-grow ">
           <HeaderSticky />
-          <div className="mx-auto max-w-5xl px-4 md:px-8 space-y-32 pb-24">
+          <div className="mx-auto max-w-5xl px-4 md:px-8 space-y-32 pb-24 py-20">
             <Reveal width="100%">
               <Hero />
             </Reveal>
             <Reveal width="100%">
               <About />
             </Reveal>
+            <ProjectSection />
           </div>
           <Footer />
         </main>

@@ -8,7 +8,7 @@ export const Hero = () => {
         <h2 className="text-3xl py-5">I'm a Full Stack Developer</h2>
         <p className="text-xl">
           I’ve spent the last 2 years learning how to build Backend and Fronted using Javascript. I'm also a big fan of
-          Space Exploration Technology 🚀 and student of computer science 💻
+          Space Exploration Technology 🚀 and proud Student of Computer Science 💻
         </p>
 
         <p className="text-xl">Let's connect </p>
