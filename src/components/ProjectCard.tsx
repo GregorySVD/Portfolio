@@ -27,7 +27,11 @@ export const ProjectCard = ({
 
   return (
     <div className="opacity: 1; transform: none;">
-      <div className="bg-bg-chip cursor-pointer rounded-md aspect-video flex justify-center items-end overflow-hidden ">
+      <div
+        className="bg-bg-chip cursor-pointer rounded-md aspect-video flex justify-center items-end overflow-hidden 
+      "
+        onClick={() => setModalOpen(true)}
+      >
         <img
           src={cardMainImg}
           alt={alt}
@@ -56,6 +60,9 @@ export const ProjectCard = ({
         onClose={() => setModalOpen(false)}
         title={title}
         projectDescription={projectDescription}
+        alt={alt}
+        cardMainImg={cardMainImg}
+        stack={stack}
       />
     </div>
   );

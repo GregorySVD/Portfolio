@@ -5,6 +5,9 @@ module.exports = {
   content: ['./src/**/*.{js,jsx,ts,tsx}'],
   theme: {
     extend: {
+      maxWidth: {
+        '700px': '700px',
+      },
       rotate: {
         2: '2deg',
       },
