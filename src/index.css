@@ -25,3 +25,17 @@ html {
 .vertical-writing {
   writing-mode: vertical-lr;
 }
+/* Hide scrollbar for Webkit browsers */
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for Firefox */
+.hide-scrollbar {
+  scrollbar-width: none; /* Firefox */
+}
+
+/* Optional: Prevent text selection outside of the modal when scrolling */
+body {
+  user-select: none;
+}
