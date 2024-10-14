@@ -21,6 +21,9 @@ html {
   padding: 0;
   margin: 0;
 }
+:root {
+  background-color: #111111;
+}
 
 .vertical-writing {
   writing-mode: vertical-lr;
@@ -38,4 +41,23 @@ html {
 /* Optional: Prevent text selection outside of the modal when scrolling */
 body {
   user-select: none;
+}
+
+/* index.css or global.css */
+@media (max-width: 640px) {
+  html {
+    font-size: 12px; /* Adjust for mobile */
+  }
+}
+
+@media (min-width: 641px) and (max-width: 1024px) {
+  html {
+    font-size: 16px; /* Adjust for tablets */
+  }
+}
+
+@media (min-width: 1025px) {
+  html {
+    font-size: 18px; /* Adjust for desktops */
+  }
 }
