@@ -2,7 +2,7 @@ export const Hero = () => {
   return (
     <div className="my-12">
       <div className="text-left py-4">
-        <h1 className="text-8xl font-extrabold mb-4">
+        <h1 className=" text-6xl md:text-8xl font-extrabold mb-4">
           Hey, I'm Grzegorz<span className="text-accent">.</span>
         </h1>
         <h2 className="text-3xl py-5">I'm a Full Stack Developer</h2>
