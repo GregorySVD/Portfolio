@@ -9,7 +9,6 @@ export const SideBar = () => {
       </div>
       <SideBarLink text="About" goToSectionId="about" />
       <SideBarLink text="Projects" goToSectionId="projects" />
-      <SideBarLink text="Exp" goToSectionId="exp" />
       <SideBarLink text="Contact" goToSectionId="contact" />
       <div className="flex-grow"></div>
     </nav>

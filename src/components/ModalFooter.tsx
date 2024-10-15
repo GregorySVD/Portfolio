@@ -13,8 +13,13 @@ export const ModalFooter = ({ deploymentLink, repoUrl }: Props) => {
       <p className="font-extrabold">
         Projects Links<span className="text-accent">.</span>
       </p>
-      <div className="text-base flex align-baseline text-accent flex-wrap">
-        <a href={repoUrl} target="_blank" rel="noreferrer" className="p-2 flex align-baseline gap-2 hover:animate-jump">
+      <div className="text-base flex align-baseline text-accent flex-wrap gap-4">
+        <a
+          href={repoUrl}
+          target="_blank"
+          rel="noreferrer"
+          className="py-2 flex align-baseline gap-2 hover:animate-jump"
+        >
           <SocialLink icon={faGithub} size="text-xl" />
           <span> soure code</span>
         </a>
@@ -22,7 +27,7 @@ export const ModalFooter = ({ deploymentLink, repoUrl }: Props) => {
           target="_blank"
           rel="noreferrer"
           href={deploymentLink}
-          className="p-2 flex align-baseline gap-2 hover:animate-jump"
+          className="py-2 flex align-baseline gap-2 hover:animate-jump"
         >
           <SocialLink icon={faEye} size="text-xl" />
           <span>live preview</span>
