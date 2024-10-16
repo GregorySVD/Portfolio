@@ -63,6 +63,8 @@ export const ProjectCard = ({
         alt={alt}
         cardMainImg={cardMainImg}
         stack={stack}
+        deploymentLink={deploymentLink}
+        repoUrl={repoUrl}
       />
     </div>
   );

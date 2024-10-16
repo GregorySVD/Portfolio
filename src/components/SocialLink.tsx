@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 interface Props {
   icon: IconProp;
-  link: string;
+  link?: string;
   size?: 'text-2xl' | 'text-xl' | 'text-sm';
 }
 

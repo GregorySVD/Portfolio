@@ -8,6 +8,9 @@ module.exports = {
       maxWidth: {
         '700px': '700px',
       },
+      minWidth: {
+        '300px': '300px',
+      },
       rotate: {
         2: '2deg',
       },
