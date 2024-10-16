@@ -14,12 +14,15 @@ function App() {
         <SideBar />
         <main className="flex-grow w-80">
           <HeaderSticky />
-          <div className="w-full px-4 md:px-8 space-y-32 pb-24 py-20">
+          <div className="w-full px-16 md:px-36 space-y-32 pb-24 py-20">
             <Reveal width="100%">
               <Hero />
             </Reveal>
             <Reveal width="100%">
               <About />
+            </Reveal>
+            <Reveal width="100%">
+              <ProjectSection />
             </Reveal>
             <ProjectSection />
             <Contact />

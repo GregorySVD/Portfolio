@@ -18,7 +18,7 @@ export const Reveal = ({ children, width = 'fit-content' }: Props) => {
         }}
         initial="hidden"
         whileInView="visible"
-        viewport={{ once: true, amount: 0.7 }}
+        viewport={{ once: true, amount: 0.2 }}
         transition={{ duration: 0.5, ease: [0.43, 0.13, 0.23, 0.96] }}
       >
         {children}
