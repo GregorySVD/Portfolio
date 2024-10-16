@@ -24,9 +24,9 @@ export const Contact = () => {
       </div>
       <div className="flex justify-center my-10 hover:text-accent transition-colors duration-300 delay-150">
         <a href="mailto:grzegorzterenda@gmail.com ">
-          <div className="text-xl">
+          <div>
             <FontAwesomeIcon icon={faEnvelope} className="mx-2" />
-            <span>grzegorzterenda@gmail.com</span>
+            <span className="text-sm md:text-xl">grzegorzterenda@gmail.com</span>
           </div>
         </a>
       </div>
