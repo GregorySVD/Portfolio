@@ -24,7 +24,6 @@ function App() {
             <Reveal width="100%">
               <ProjectSection />
             </Reveal>
-            <ProjectSection />
             <Contact />
           </div>
           <Footer />

@@ -1,6 +1,13 @@
 import { TypingAnimation } from './TypingAnimation';
 
 export const Hero = () => {
+  const options = [
+    'Full Stack Developer',
+    'React Frontend Developer',
+    'Backend Node Developer',
+    'Computer Science Student',
+  ];
+
   return (
     <div className="my-12">
       <div className="text-left py-4">
@@ -8,7 +15,7 @@ export const Hero = () => {
           Hey, I'm Grzegorz<span className="text-accent">.</span>
         </h1>
 
-        <TypingAnimation />
+        <TypingAnimation textToType={options} />
 
         <p className="text-xl">
           For the past 2 years, I've immersed myself in the world of JavaScript, mastering both backend and frontend
