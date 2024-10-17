@@ -44,7 +44,7 @@ export const TypingAnimation = ({ textToType }: Props) => {
     }
 
     return () => clearTimeout(typingTimeout);
-  }, [displayedText, deleting, loopIndex]);
+  }, [displayedText, deleting, loopIndex, textToType, typingSpeed]);
 
   return (
     <div className="flex items-center py-5">
