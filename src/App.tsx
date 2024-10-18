@@ -5,6 +5,7 @@ import { HeaderSticky } from './components/Header/HeaderSticky';
 import { Hero } from './components/Hero';
 import { ProjectSection } from './components/ProjectSection';
 import { SideBar } from './components/SideBar';
+import { SparkleBackground } from './components/SparkleAnimation/SparkleBackground';
 import { Reveal } from './components/utils/Reveal';
 
 function App() {

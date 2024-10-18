@@ -11,7 +11,7 @@ export const Hero = () => {
   return (
     <div className="my-12">
       <div className="text-left py-4">
-        <h1 className=" text-6xl md:text-7xl font-extrabold mb-4">
+        <h1 className="text-6xl md:text-7xl font-extrabold mb-4">
           Hey, I'm Grzegorz<span className="text-accent">.</span>
         </h1>
 
