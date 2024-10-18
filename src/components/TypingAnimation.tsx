@@ -1,19 +1,16 @@
 import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 
-export const TypingAnimation = () => {
+interface Props {
+  textToType: string[];
+}
+
+export const TypingAnimation = ({ textToType }: Props) => {
   const [displayedText, setDisplayedText] = useState('');
   const [deleting, setDeleting] = useState(false);
   const [loopIndex, setLoopIndex] = useState(0);
   const [typingSpeed] = useState(150);
   const [isSmallScreen, setIsSmallScreen] = useState(false);
-
-  const options = [
-    'Full Stack Developer',
-    'React Frontend Developer',
-    'Backend Node Developer',
-    'Computer Science Student',
-  ];
 
   useEffect(() => {
     const handleResize = () => {
@@ -29,7 +26,7 @@ export const TypingAnimation = () => {
 
   useEffect(() => {
     let typingTimeout: ReturnType<typeof setTimeout>;
-    const currentText = options[loopIndex % options.length];
+    const currentText = textToType[loopIndex % textToType.length];
 
     if (!deleting && displayedText.length < currentText.length) {
       typingTimeout = setTimeout(() => {
@@ -47,13 +44,16 @@ export const TypingAnimation = () => {
     }
 
     return () => clearTimeout(typingTimeout);
-  }, [displayedText, deleting, loopIndex]);
+  }, [displayedText, deleting, loopIndex, textToType, typingSpeed]);
 
   return (
     <div className="flex items-center py-5">
       <h2 className="text-3xl font-bold opacity-100" style={{ minHeight: isSmallScreen ? '120px' : 'auto' }}>
-        I&apos;m{' '}
-        <motion.span className="inline-block" transition={{ duration: 0.8, repeat: Infinity, repeatType: 'reverse' }}>
+        I&apos;m a{' '}
+        <motion.span
+          className="inline-block text-accent"
+          transition={{ duration: 0.8, repeat: Infinity, repeatType: 'reverse' }}
+        >
           {displayedText}
         </motion.span>
         <span className="blinking-cursor">|</span>
