@@ -20,7 +20,7 @@ export const ModalFooter = ({ deploymentLink, repoUrl }: Props) => {
           rel="noreferrer"
           className="py-2 flex align-baseline gap-2 hover:animate-jump"
         >
-          <SocialLink icon={faGithub} size="text-xl" />
+          <SocialLink icon={faGithub} size="text-xl" altText={'soure code'} />
           <span> soure code</span>
         </a>
         <a
@@ -29,7 +29,7 @@ export const ModalFooter = ({ deploymentLink, repoUrl }: Props) => {
           href={deploymentLink}
           className="py-2 flex align-baseline gap-2 hover:animate-jump"
         >
-          <SocialLink icon={faEye} size="text-xl" />
+          <SocialLink icon={faEye} size="text-xl" altText={'live preview'} />
           <span>live preview</span>
         </a>
       </div>
