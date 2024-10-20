@@ -42,8 +42,8 @@ export const ProjectCard = ({
         <div className="gap-4 flex items-center text-2xl">
           <span className="font-bold">{title}</span>
           <div className="w-1/2 h-[1px] bg-zinc-700"></div>
-          <SocialLink icon={faGithub} link={repoUrl} size="text-2xl" />
-          <SocialLink icon={faWindowRestore} link={deploymentLink} size="text-2xl" />
+          <SocialLink icon={faGithub} link={repoUrl} size="text-2xl" altText={'source code'} />
+          <SocialLink icon={faWindowRestore} link={deploymentLink} altText={'live preview'} size="text-2xl" />
           <div></div>
         </div>
         <div className="relative w-fit overflow-hidden text-accent my-5">{stack}</div>
