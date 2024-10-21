@@ -10,7 +10,7 @@ export const ProjectSection = () => {
         </h2>
       </div>
       <div>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 ">
           <ProjectCard
             alt="TodoApp frontend layout"
             deploymentLink="https://app-todo-fe.vercel.app/"
@@ -39,7 +39,7 @@ export const ProjectSection = () => {
             projectDescription="The User Management App is a React-based tool for managing and filtering user data. It features real-time search and advanced filtering 🌈 "
           />
         </div>
-        <div className="w-full h-[1px] bg-zinc-700"></div>
+        <div className="w-full h-[1px] bg-zinc-700 mt-12"></div>
       </div>
     </section>
   );

@@ -1,6 +1,6 @@
 export const MyResumeBtn = () => {
   const handleOpenCV = () => {
-    window.open('https://github.com/GregorySVD/Portfolio/blob/dev/src/assets/my-resume.pdf.pdf', '_blank'); // Replace 'your-cv-link.pdf' with your actual CV URL
+    window.open('https://github.com/GregorySVD/Portfolio/blob/dev/src/assets/my-resume.pdf.pdf', '_blank');
   };
 
   return (
