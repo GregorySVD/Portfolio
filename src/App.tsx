@@ -4,8 +4,8 @@ import { Footer } from './components/Footer';
 import { HeaderSticky } from './components/Header/HeaderSticky';
 import { Hero } from './components/Hero';
 import { ProjectSection } from './components/ProjectSection';
+import { ScrollToTopButton } from './components/ScrollToTopButton';
 import { SideBar } from './components/SideBar';
-import { SparkleBackground } from './components/SparkleAnimation/SparkleBackground';
 import { Reveal } from './components/utils/Reveal';
 
 function App() {
@@ -30,6 +30,7 @@ function App() {
           <Footer />
         </main>
       </div>
+      <ScrollToTopButton />
     </div>
   );
 }
