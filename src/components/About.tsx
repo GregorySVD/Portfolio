@@ -6,7 +6,7 @@ import { Chip } from './Chip';
 
 export const About = () => {
   return (
-    <section id="about" className="py-16 ">
+    <section id="about" className="py-16 px-4">
       <div className="flex items-center gap-8 mb-12">
         <h2 className="text-5xl font-bold">
           About<span className="text-accent">.</span>

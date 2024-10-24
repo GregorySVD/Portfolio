@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 export const Contact = () => {
   return (
-    <div id="contact">
+    <div id="contact" className="p-4">
       <div className="flex justify-center my-10">
         <h4 className="text-5xl md:text-7xl font-extrabold mb-4">
           Contact<span className="text-accent">.</span>

@@ -2,8 +2,8 @@ import { ProjectCard } from './ProjectCard';
 
 export const ProjectSection = () => {
   return (
-    <section id="projects">
-      <div className="flex items-center gap-8 mb-12">
+    <section id="projects" className="px-4">
+      <div className="flex items-center gap-8 mb-12 ">
         <div className="w-full h-[1px] bg-zinc-700"></div>
         <h2 className="text-5xl font-bold">
           Projects<span className="text-accent">.</span>
