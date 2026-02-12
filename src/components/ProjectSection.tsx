@@ -47,7 +47,6 @@ export const ProjectSection = () => {
             projectDescription="The User Management App is a React-based tool for managing and filtering user data. It features real-time search and advanced filtering 🌈 "
           />
         </div>
-        <div className="w-full h-[1px] bg-zinc-700 mt-12"></div>
       </div>
     </section>
   );
