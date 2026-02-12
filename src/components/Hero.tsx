@@ -5,9 +5,11 @@ import { DotLottieReact } from '@lottiefiles/dotlottie-react';
 export const Hero = () => {
   const options = [
     'Full Stack Developer',
-    'React Frontend Developer',
-    'Backend Node Developer',
+    'Frontend Developer',
+    'Backend Developer',
     'Computer Science Student',
+    'DevOps Engineer',
+    'Cybersecurity Enthusiast',
   ];
 
   const goToSectionId: MouseEventHandler<HTMLButtonElement> = () => {
@@ -27,10 +29,11 @@ export const Hero = () => {
         <TypingAnimation textToType={options} />
 
         <p className="text-xl">
-          For the past 2 years, I've immersed myself in the world of JavaScript, mastering both backend and frontend
-          development to build seamless, interactive experiences. Alongside my passion for coding, I’m deeply fascinated
-          by space exploration 🚀 pushing the boundaries of technology beyond our planet is just as thrilling as
-          building innovative software here on Earth. Currently, I’m proudly pursuing a degree in Computer Science 💻
+          Since 2022, I’ve been working with JavaScript and web technologies, currently focusing on DevOps and system
+          reliability as a DevOps Trainee. I’m particularly interested in cybersecurity and understanding how networks,
+          infrastructure, and system weaknesses connect, which led me to specialize in Information Systems Security 💻 I
+          enjoy collaborative environments like hackathons and tech initiatives, and I’ve previously worked as a Web
+          Developer and Vice President of a student research group focused on space and emerging technologies 🚀
         </p>
         <div className="relative">
           <p className="text-2xl mt-5">Let's connect 💫</p>
