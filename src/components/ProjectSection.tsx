@@ -22,7 +22,7 @@ export const ProjectSection = () => {
           />
           <ProjectCard
             alt="SEEK Scientific Club Website"
-            cardMainImg="/project-imgs/SEEK.png"
+            cardMainImg="/project-imgs/Seek.png"
             deploymentLink="https://seek.org.pl/"
             title="SEEK Scientific Club Website"
             stack="WordPress - HTML/CSS - JavaScript"
