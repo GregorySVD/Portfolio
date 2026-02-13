@@ -1,5 +1,7 @@
 import { About } from './components/About';
 import { Contact } from './components/Contact';
+import { Education } from './components/Education';
+import { Experience } from './components/Experience';
 import { Footer } from './components/Footer';
 import { HeaderSticky } from './components/Header/HeaderSticky';
 import { Hero } from './components/Hero';
@@ -15,7 +17,7 @@ function App() {
         <SideBar />
         <main className="flex-grow w-80">
           <HeaderSticky />
-          <div className="w-full px-16 md:px-36 space-y-32 pb-24 py-20">
+          <div className="w-full px-8 md:px-36 space-y-32 pb-24 py-20">
             <Reveal width="100%">
               <Hero />
             </Reveal>
@@ -24,6 +26,12 @@ function App() {
             </Reveal>
             <Reveal width="100%">
               <ProjectSection />
+            </Reveal>
+            <Reveal width="100%">
+              <Experience />
+            </Reveal>
+            <Reveal width="100%">
+              <Education />
             </Reveal>
             <Contact />
           </div>

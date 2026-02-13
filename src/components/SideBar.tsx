@@ -7,6 +7,8 @@ export const SideBar = () => {
     () => [
       { text: 'About', goToSectionId: 'about' },
       { text: 'Projects', goToSectionId: 'projects' },
+      { text: 'Exp.', goToSectionId: 'experience' },
+      { text: 'Education', goToSectionId: 'education' },
       { text: 'Contact', goToSectionId: 'contact' },
     ],
     []
